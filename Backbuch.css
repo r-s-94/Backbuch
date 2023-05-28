@@ -1,0 +1,554 @@
+/*Überschrift*/
+
+h1 {
+  margin-top: 100px;
+  margin-left: 550px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+  margin-right: 720px;
+}
+
+/*1 Ausführung*/
+
+.h2first {
+  margin-left: 100px;
+}
+
+/*Eingabe und Erklärung*/
+
+.eingabe-und-erklärung-div {
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-right: 350px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+#input-erklärung {
+  margin: 0px;
+
+  text-align: center;
+}
+
+.list {
+  margin-top: 50px;
+}
+
+#number {
+  font-size: 15px;
+  width: 100px;
+  height: 50px;
+  margin-left: 35%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#check-button {
+  margin-top: ;
+  margin-left: ;
+  width: 125px;
+  height: 75px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.finish-text {
+  margin-top: 150px;
+  margin-left: 400px;
+}
+
+/*Pfannkuchen*/
+
+.Pfannkuchen {
+  margin-top: 50px;
+  border: 1px solid black;
+  height: 2450px;
+  margin-left: 50px;
+  margin-right: 350px;
+  display: none;
+}
+
+.headline-Pfannkuchen {
+  margin-top: 50px;
+  margin-left: 600px;
+}
+
+.img-div-Pfannkuchen {
+  width: 50%;
+  margin-top: -55px;
+  margin-left: 50px;
+}
+
+.picture-Pfannkuchen {
+  width: 100%;
+}
+
+.Pfannkuchen-question {
+  margin-top: -250px;
+  margin-left: 600px;
+}
+
+.Pfannkuchen-list {
+  margin-left: 575px;
+}
+
+.list-element {
+  margin-bottom: 5px;
+}
+
+.Pfannkuchen-question2 {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.Pfannkuchen-equitment {
+  margin-left: 125px;
+}
+
+.list-element2 {
+  margin-bottom: 5px;
+}
+
+.Kochanleitung1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.li-element {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.Kochschrittsymbole {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(125, 207, 1);
+}
+
+/*Waffeln*/
+
+.Waffeln {
+  margin-top: 50px;
+  border: 1px solid black;
+  height: 1900px;
+  margin-left: 50px;
+  margin-right: 350px;
+  display: none;
+}
+
+.Waffeln-headline {
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.Waffeln-img-div {
+  width: 50%;
+  margin-top: -60px;
+  margin-left: 475px;
+}
+
+.Waffeln-picture {
+  width: 100%;
+}
+
+.Waffeln-question {
+  margin-top: -250px;
+  margin-left: 100px;
+}
+
+.Waffeln-list {
+  margin-left: 75px;
+}
+
+.list-element {
+  margin-bottom: 5px;
+}
+
+.Waffeln-question2 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.Waffeln-equitment {
+  margin-left: 75px;
+}
+
+.list-element2 {
+  margin-bottom: 5px;
+}
+
+.Kochanleitung2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.li-element {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.Kochschrittsymbole {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(125, 207, 1);
+}
+
+/*Käsekuchen*/
+
+.Käsekuchen {
+  margin-top: 50px;
+  border: 1px solid black;
+  height: 2450px;
+  margin-left: 50px;
+  margin-right: 350px;
+  display: none;
+}
+
+.Käsekuchen-headline {
+  margin-top: 50px;
+  margin-left: 550px;
+}
+
+.Käsekuchen-img-div {
+  width: 45%;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.Käsekuchen-picture {
+  width: 100%;
+}
+
+.Käsekuchen-question {
+  margin-top: -275px;
+  margin-left: 550px;
+}
+
+.Käsekuchen-list {
+  margin-left: 525px;
+}
+
+.list-element {
+  margin-bottom: 5px;
+}
+
+.Käsekuchen-question2 {
+  margin-top: 100px;
+  margin-left: 75px;
+}
+
+.Käsekuchen-list2 {
+  margin-left: 50px;
+}
+
+.list-element2 {
+  margin-bottom: 5px;
+}
+
+.Käsekuchen-question3 {
+  margin-top: -480px;
+  margin-left: 500px;
+}
+
+.Käsekuchen-equitment {
+  margin-left: 475px;
+}
+.list-element3 {
+  margin-bottom: 5px;
+}
+
+.Kochanleitung3 {
+  margin-top: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.li-element {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.Kochschrittsymbole {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(125, 207, 1);
+}
+
+/*2 Ausführung*/
+
+.h2second {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.h3-2ausführung {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.selection {
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+.selection-button {
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.div {
+  display: none;
+}
+
+/*Pfannkuchen2*/
+
+.Pfannkuchen2 {
+  margin-top: 100px;
+  border: 1px solid black;
+  height: 2500px;
+  margin-left: 50px;
+  margin-right: 350px;
+}
+
+.headline-Pfannkuchen2 {
+  margin-top: 50px;
+  margin-left: 600px;
+}
+
+.img-div-Pfannkuchen2 {
+  width: 50%;
+  margin-top: -55px;
+  margin-left: 50px;
+}
+
+.picture-Pfannkuchen2 {
+  width: 100%;
+}
+
+.Pfannkuchen-question3 {
+  margin-top: -250px;
+  margin-left: 600px;
+}
+
+.Pfannkuchen-list2 {
+  margin-left: 575px;
+}
+
+.list-element {
+  margin-bottom: 5px;
+}
+
+.Pfannkuchen-question4 {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.Pfannkuchen-equitment2 {
+  margin-left: 125px;
+}
+
+.list-element4 {
+  margin-bottom: 5px;
+}
+
+.Kochanleitung4 {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.li-element2 {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.Kochschrittsymbole2 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(125, 207, 1);
+}
+
+/*Waffeln2*/
+
+.Waffeln2 {
+  margin-top: 50px;
+  border: 1px solid black;
+  height: 1900px;
+  margin-left: 50px;
+  margin-right: 350px;
+}
+
+.Waffeln-headline2 {
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.Waffeln-img-div2 {
+  width: 50%;
+  margin-top: -60px;
+  margin-left: 475px;
+}
+
+.Waffeln-picture2 {
+  width: 100%;
+}
+
+.Waffeln-question3 {
+  margin-top: -250px;
+  margin-left: 100px;
+}
+
+.Waffeln-list2 {
+  margin-left: 75px;
+}
+
+.list-element3 {
+  margin-bottom: 5px;
+}
+
+.Waffeln-question4 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.Waffeln-equitment2 {
+  margin-left: 75px;
+}
+
+.list-element4 {
+  margin-bottom: 5px;
+}
+
+.Kochanleitung5 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.li-element2 {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.Kochschrittsymbole2 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(125, 207, 1);
+}
+
+/*Käsekuchen2*/
+
+.Käsekuchen2 {
+  margin-top: 100px;
+  border: 1px solid black;
+  height: 2450px;
+  margin-left: 50px;
+  margin-right: 350px;
+}
+
+.Käsekuchen-headline2 {
+  margin-top: 50px;
+  margin-left: 550px;
+}
+
+.Käsekuchen-img-div2 {
+  width: 45%;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.Käsekuchen-picture2 {
+  width: 100%;
+}
+
+.Käsekuchen-question4 {
+  margin-top: -275px;
+  margin-left: 550px;
+}
+
+.Käsekuchen-list4 {
+  margin-left: 525px;
+}
+
+.list-element4 {
+  margin-bottom: 5px;
+}
+
+.Käsekuchen-question5 {
+  margin-top: 100px;
+  margin-left: 75px;
+}
+
+.Käsekuchen-list5 {
+  margin-left: 50px;
+}
+
+.list-element5 {
+  margin-bottom: 5px;
+}
+
+.Käsekuchen-question6 {
+  margin-top: -480px;
+  margin-left: 500px;
+}
+
+.Käsekuchen-equitment6 {
+  margin-left: 475px;
+}
+.list-element6 {
+  margin-bottom: 5px;
+}
+
+.Kochanleitung6 {
+  margin-top: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.li-element2 {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.Kochschrittsymbole2 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(125, 207, 1);
+}

@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Backbuch.css" />
+  </head>
+  <body>
+    <h1>Backbuch</h1>
+    <h2 class="h2first">1 Ausführung</h2>
+
+    <div class="ausführung1">
+      <div class="eingabe-und-erklärung-div">
+        <h3>
+          Gebe in das Eingabefeld ->
+          <input type="text" name="" id="input-erklärung" value="Eingabefeld" />
+          eine Zahl zwischen 1 und 3 ein um das Rezept für Pfannkuchen, Waffeln
+          oder Käsekuchen zu bekommen.
+        </h3>
+        <h3 class="list">
+          <ol>
+            <li>Pfannkuchen</li>
+            <li>Waffeln</li>
+            <li>Käsekuchen</li>
+          </ol>
+        </h3>
+
+        <input type="number" name="" id="number" placeholder="Eingabe 1-3" />
+        <button onclick="check()" id="check-button" >Eingabe ausführen</button>
+      </div>
+      
+
+      <div class="Pfannkuchen">
+        <h2 class="headline-Pfannkuchen">Pfannkuchen</h2>
+
+        <div class="img-div-Pfannkuchen">
+          <img
+            src="assets/Pfannkuchen.webp"
+            class="picture-Pfannkuchen"
+            alt=""
+          />
+        </div>
+
+        <h3 class="Pfannkuchen-question">Was brauch ich für die zubreitung?</h3>
+        <ul class="Pfannkuchen-list">
+          <li class="list-element"><h3>300ml Milch</h3></li>
+          <li class="list-element"><h3>200g Mehl</h3></li>
+          <li class="list-element"><h3>2 mittelgroße Eier</h3></li>
+          <li class="list-element">
+            <h3>50ml Mineralwasser mit Kohlesäure</h3>
+          </li>
+          <li class="list-element"><h3>1 Prise Salz</h3></li>
+          <li class="list-element"><h3>80g Zucker</h3></li>
+          <li class="list-element"><h3>1/2 Packung Vanillizucker</h3></li>
+          <li class="list-element"><h3>Butter zum Braten </h3></li>
+        </ul>
+        <h3 class="Pfannkuchen-question2">
+          Zum Anrühren des Teiges brauchst du folgende Hilfsmittel:
+        </h3>
+        <ul class="Pfannkuchen-equitment">
+          <li class="list-element2"><h3> Eine Rührschüssel </h3></li>
+          <li class="list-element2"><h3> Handrührgerät oder Schneebesen </h3></li>
+          <li class="list-element2"><h3>Flache Pfanne</h3></li>
+          <li class="list-element2"><h3>Pfannenwender</h3></li>
+          <li class="list-element2"><h3>Suppenkelle</h3></li>
+        </ul>
+
+        <div class="Kochanleitung1">
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">1</span>
+            </div>
+            <h3>
+              Mehl, Milch, die Eier und die Prise Salz in einer Rührschüssel
+              mischen. Achte darauf, dass die Rührschüssel groß genug ist. Nun
+              die Mischung mit dem Handrührgerät schaumig schlagen. Der Teig ist
+              fertig, wenn er glatt ist aber kleine Blasen wirft.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">2</span>
+            </div>
+            <h3>
+              Stelle die Schüssel in den Kühlschrank und lasse den Teig für 30
+              Minuten ziehen.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">3</span>
+            </div>
+            <h3>
+              Nimm nach der Ruhezeit den Teig aus dem Kühlschrank und füge das
+              Mineralwasser und den Zucker hinzu. Rühre noch einmal richtig
+              durch.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">4</span>
+            </div>
+            <h3>
+              Stelle nun die Pfanne mit reichlich Butter (etwa einen großen
+              Esslöffel voll pro Pfannkuchen) auf den heißen Herd und lasse sie
+              schmelzen. Achte darauf, die Pfanne nur bei mittlerer Hitze zu
+              erwärmen, da die Butter sonst leicht anbrennen kann.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">5</span>
+            </div>
+            <h3>
+              Nimm die Pfanne nun vom Herd und schwenke sie, so daß die Butter
+              sich überall verteilt. Nimm nun eine Schöpfkelle (Suppenkelle)
+              voll Teig und lasse ihn in die Pfanne gleiten. Schwenke die Pfanne
+              wieder damit der Pfannkuchenteig sich überall verteilt und stelle
+              sie wieder auf die Flamme.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">6</span>
+            </div>
+            <h3>
+              Backe die erste Seite bis du sie mit dem Pfannenwender am Rand der
+              Pfanne gut anheben kannst und sie goldbraun ist. Die erste Seite
+              ist fertig, wenn der obere Teig schon leicht fest wird und nicht
+              mehr so flüssig ist.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">7</span>
+            </div>
+            <h3>
+              Nun kannst du den Pfannenwender unter den Pfannkuchen schieben und
+              ihn wenden. Mache dies vorsichtig, damit der Pfannkuchen nicht
+              zerbricht. Gib danach wieder etwas Butter in die Pfanne und brate
+              den/die anderen Pfannkuchen (oder Eierkuchen).
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">8</span>
+            </div>
+            <h3>
+              Wenn du alle Pfannkuchen fertig hast, drapiere sie auf einen
+              Teller. Bestreue die Oberseite mit dem Vanillezucker.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">9</span>
+            </div>
+            <h3>
+              Nun kannst du die Pfannkuchen einrollen oder einfach
+              übereinanderschlagen und servieren. Deiner Kreativität sind keine
+              Grenzen gesetzt.
+            </h3>
+          </li>
+        </div>
+        <h2 class="finish-text">Guten Appetit</h2>
+      </div>
+
+      <div class="Waffeln">
+
+        <h2 class="Waffeln-headline">Waffeln</h2>
+
+        <div class="Waffeln-img-div">
+          <img
+            src="assets/Waffeln.webp"
+            class="Waffeln-picture"
+            alt=""
+          />
+        </div>
+
+        <h3 class="Waffeln-question">Was brauche ich fürs Waffelbacken?</h3>
+        <ul class="Waffeln-list">
+          <li class="list-element">
+            <h3>250g Mehl</h3>
+          </li>
+          <li class="list-element">
+          <h3>200ml Milch<h3></li>
+          <li class="list-element"><h3>125g Butter<h3></li>
+          <li class="list-element"><h3>50g Zucker<h3></li>
+          <li class="list-element"><h3>1 Pkg Vanillinzucker<h3></li>
+          <li class="list-element"><h3>3 Eier<h3></li>
+          <li class="list-element"><h3>0.5 Pkg Backpulver<h3></li>
+          <li class="list-element"><h3>1 Prise Salz<h3></li>
+        </ul>
+        <h3 class="Waffeln-question2">
+          Zum Anrühren des Teiges brauchst du folgende Hilfsmittel:
+        </h3>
+        <ul class="Waffeln-equitment">
+          <li class="list-element2"><h3>Teigschüssel</h3></li>
+          <li class="list-element2"><h3>Backpinsel</h3></li>
+          <li class="list-element2"><h3>Schöpfkelle<h3></li>
+          <li class="list-element2"><h3>Waffeleisen<h3></li>
+          <li class="list-element2"><h3>Schneebesen<h3></li>
+        </ul>
+
+        <div class="Kochanleitung2">
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">1</span>
+            </div>
+            <h3>
+              Zerlasse die Butter kurz in einem Topf oder gib sie für ein paar Sekunden (!) in die Mikrowelle. Dann die Butter in einer Schüssel mit einem Schneebesen mit dem Zucker, dem Salz und dem Vanillinzucker schaumig verrühren.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">2</span>
+            </div>
+            <h3>
+              Gib jetzt die Eier einzeln hinzu und verrühre alles gut zu einer cremigen, leicht schaumigen Masse. Jetzt das Mehl in einer anderen Schüssel mit dem Backpulver mischen und hier hinein mit dem Handrührgerät die Buttermischung rühren. Jetzt erst kommt die Milch hinein. Verquirle alles zu einem homogenen Teig.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">3</span>
+            </div>
+            <h3>
+              Lasse den Teig 15 Minuten lang aufquellen. 
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">4</span>
+            </div>
+            <h3>
+              Streiche jetzt das Waffeleisen mit einem Pinsel und Öl oder Butter gut aus. Wenn es heiß ist, gib eine Portion Waffelteig mit einer Schöpfkelle hinein und schließe das Gerät.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">5</span>
+            </div>
+            <h3>
+              Die Waffeln sind nach etwa 3-5 Minuten fertig und goldbraun. Nimm sie heraus und säubere das Waffeleisen innen mit einem Stück Küchenpapier von eventuellen Resten, die anbrennen könnten. Dann die nächste Kelle hineingeben.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">6</span>
+            </div>
+            <h3>
+              Warm schmecken die Waffeln am besten.
+            </h3>
+          </li>
+          
+          
+        </div>
+        <h2 class="finish-text">Guten Appetit</h2>
+      </div>
+
+    
+      <div class="Käsekuchen">
+
+        <h2 class="Käsekuchen-headline">Käsekuchen</h2>
+
+        <div class="Käsekuchen-img-div">
+          <img
+            src="assets/Käsekuchen.webp"
+            class="Käsekuchen-picture"
+            alt=""
+          />
+        </div>
+
+        <h3 class="Käsekuchen-question">Was brauch ich für den Mürbeteig?</h3>
+        <ul class="Käsekuchen-list">
+          <li class="list-element"><h3>250g Mehl</h3></li>
+          <li class="list-element"><h3>1/2 Päckchen Backpulver</h3></li>
+          <li class="list-element"><h3>70g Zucker</h3></li>
+          <li class="list-element">
+            <h3>100g Butter</h3>
+          </li>
+          <li class="list-element"><h3>1 Stück Eier</h3></li>
+        </ul>
+        
+        <h3 class="Käsekuchen-question2">Was brauch ich für den Quarkkuchenbelag?</h3>
+        <ul class="Käsekuchen-list2">
+          <li class="list-element2"><h3>4 Stück Eiweis</h3></li>
+          <li class="list-element2"><h3>500g Quark</h3></li>
+          <li class="list-element2"><h3>1 Päckchen Vanillienzucker</h3></li>
+          <li class="list-element2">
+            <h3>250ml Milch</h3>
+          </li>
+          <li class="list-element2"><h3>80g Zucker</h3></li>
+          <li class="list-element2"><h3>3 Stück Eigelb</h3></li>
+          <li class="list-element2"><h3>50g Butter</h3></li>
+          <li class="list-element2"><h3>1 Päckchen Puddingpulver Vanille</h3></li>
+          <li class="list-element2"><h3>1 TL geriebene Zitronenschale</h3></li>
+          <li class="list-element2"><h3>1 Stück Eigelb</h3></li>
+          <li class="list-element2"><h3>1 TL Zucker</h3></li>
+        </ul>
+
+        <h3 class="Käsekuchen-question3">
+          Zum Anrühren des Teiges brauchst du folgende Hilfsmittel:
+        </h3>
+        <ul class="Käsekuchen-equitment">
+          <li class="list-element3"><h3>Rührschüssel</h3></li>
+          <li class="list-element3"><h3>Springform</h3></li>
+          <li class="list-element3"><h3>Backpinsel</h3></li>
+        </ul>
+
+        <div class="Kochanleitung3">
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">1</span>
+            </div>
+            <h3>
+              Zuerst bereite den Mürbeteig zu.
+              Gib das Mehl mit dem Backpulver auf deine Arbeitsfläche und drücke eine Kuhle hinein. Da hinein kommen Ei, Zucker und die kalte Butter. Verknete alles zu einem glatten Teig. Lege den Teig in eine bemehlte Schüssel, abdecken und etwa 30 Minuten in den Kühlschrank stellen.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">2</span>
+            </div>
+            <h3>
+              Fette in der Zwischenzeit eine Springform ein und heize den Backofen auf 180 °C Ober- Unterhitze, 160°C Umluft) vor.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">3</span>
+            </div>
+            <h3>
+              Ist der Teig gekühlt, rolle ihn in der Springform aus. Das funktioniert sehr gut mit einem bemehlten Glas. Vergiß nicht, den Teig am Rand etwas hochzuziehen.Nun kannst du ihn etwa 10 bis 15 Minuten backen und anschließend etwas abkühlen lassen.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">4</span>
+            </div>
+            <h3>
+              Nimm nun eine fettfreie Schüssel und schlage zuerst das Eiweiß zu steifen Schnee. Stelle ihn an einen kühlen Ort, damit er nicht zusammenfällt.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">5</span>
+            </div>
+            <h3>
+              Nun brauchst du eine andere, große Schüssel. Dahinein gib zuerst den Quark und das Vanille-Puddingpulver. Anstatt Vanillepudding-Pulver kannst du auch 40 g Speisestärke nehmen.
+              Kurz vermischen und alle anderen Zutaten zufügen. Erst wenn alles gut cremig verrührt ist, ziehe vorsichtig das geschlagene Eiweiß darunter.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">6</span>
+            </div>
+            <h3>
+              Nun kannst du die Quarkmasse auf den gebackenem Boden verteilen. Forme einen Hügel, damit er nach dem Backen nicht zusammenfällt.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">7</span>
+            </div>
+            <h3>
+              Nun muss der Quarkkuchen bei etwa 40 Minuten backen.
+              Verquirle das Eigelb mit dem TL Zucker und bestreiche nach etwa 15 Minuten backen die Oberfläche damit.
+              Für eine Garprobe nimm einen Holzspieß und stich nach Ende der Backzeit damit vorsichtig in den Kuchen. Wenn nichts mehr kleben bleibt, ist er fertig.
+            </h3>
+          </li>
+          <li class="li-element">
+            <div class="Kochschrittsymbole">
+              <span class="Kochschritt">8</span>
+            </div>
+            <h3>
+              Öffne die Backofentür zur Hälfte und lass ihn noch etwa 15 Minuten im Ofen stehen. Dann kannst du ihn unbesorgt rausnehmen und er fällt nicht zusammen.
+            </h3>
+          </li>
+          
+        </div>
+        <h2 class="finish-text">Guten Appetit</h2>
+    </div>
+
+
+    
+
+    <h2 class="h2second">2 Ausführung</h2>
+
+    <h3 class="h3-2ausführung" >
+      Klicke auf einen der Buttons <Button>Pfannkuchen</Button>,
+       <button>Waffeln</button> oder <button>Käsekuchen</button> um das Rezept angezeigt zubekommen
+    </h3>
+
+    <div class="selection" >
+
+      <button class="selection-button" onclick="selection('Pfannkuchen')" >Pfannkuchen</button>
+      <button class="selection-button" onclick="selection('Waffeln')" >Waffeln</button>
+      <button class="selection-button" onclick="selection('Käsekuchen')" >Käsekuchen</button>
+
+    </div>
+
+    <div id="Pfannkuchen" class="div" >
+      <div class="Pfannkuchen2">
+
+      <h2 class="headline-Pfannkuchen2">Pfannkuchen</h2>
+
+      <div class="img-div-Pfannkuchen2">
+        <img
+          src="assets/Pfannkuchen.webp"
+          class="picture-Pfannkuchen2"
+          alt=""
+        />
+      </div>
+
+      <h3 class="Pfannkuchen-question3">Was brauch ich für die zubreitung?</h3>
+      <ul class="Pfannkuchen-list2">
+        <li class="list-element3"><h3>300ml Milch</h3></li>
+        <li class="list-element3"><h3>200g Mehl</h3></li>
+        <li class="list-element3"><h3>2 mittelgroße Eier</h3></li>
+        <li class="list-element3">
+          <h3>50ml Mineralwasser mit Kohlesäure</h3>
+        </li>
+        <li class="list-element3"><h3>1 Prise Salz</h3></li>
+        <li class="list-element3"><h3>80g Zucker</h3></li>
+        <li class="list-element3"><h3>1/2 Packung Vanillizucker</h3></li>
+        <li class="list-element3"><h3>Butter zum Braten </h3></li>
+      </ul>
+      <h3 class="Pfannkuchen-question4">
+        Zum Anrühren des Teiges brauchst du folgende Hilfsmittel:
+      </h3>
+      <ul class="Pfannkuchen-equitment2">
+        <li class="list-element4"><h3> Eine Rührschüssel </h3></li>
+        <li class="list-element4"><h3> Handrührgerät oder Schneebesen </h3></li>
+        <li class="list-element4"><h3>Flache Pfanne</h3></li>
+        <li class="list-element4"><h3>Pfannenwender</h3></li>
+        <li class="list-element4"><h3>Suppenkelle</h3></li>
+      </ul>
+
+      <div class="Kochanleitung4">
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">1</span>
+          </div>
+          <h3>
+            Mehl, Milch, die Eier und die Prise Salz in einer Rührschüssel
+            mischen. Achte darauf, dass die Rührschüssel groß genug ist. Nun
+            die Mischung mit dem Handrührgerät schaumig schlagen. Der Teig ist
+            fertig, wenn er glatt ist aber kleine Blasen wirft.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">2</span>
+          </div>
+          <h3>
+            Stelle die Schüssel in den Kühlschrank und lasse den Teig für 30
+            Minuten ziehen.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">3</span>
+          </div>
+          <h3>
+            Nimm nach der Ruhezeit den Teig aus dem Kühlschrank und füge das
+            Mineralwasser und den Zucker hinzu. Rühre noch einmal richtig
+            durch.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">4</span>
+          </div>
+          <h3>
+            Stelle nun die Pfanne mit reichlich Butter (etwa einen großen
+            Esslöffel voll pro Pfannkuchen) auf den heißen Herd und lasse sie
+            schmelzen. Achte darauf, die Pfanne nur bei mittlerer Hitze zu
+            erwärmen, da die Butter sonst leicht anbrennen kann.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">5</span>
+          </div>
+          <h3>
+            Nimm die Pfanne nun vom Herd und schwenke sie, so daß die Butter
+            sich überall verteilt. Nimm nun eine Schöpfkelle (Suppenkelle)
+            voll Teig und lasse ihn in die Pfanne gleiten. Schwenke die Pfanne
+            wieder damit der Pfannkuchenteig sich überall verteilt und stelle
+            sie wieder auf die Flamme.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">6</span>
+          </div>
+          <h3>
+            Backe die erste Seite bis du sie mit dem Pfannenwender am Rand der
+            Pfanne gut anheben kannst und sie goldbraun ist. Die erste Seite
+            ist fertig, wenn der obere Teig schon leicht fest wird und nicht
+            mehr so flüssig ist.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">7</span>
+          </div>
+          <h3>
+            Nun kannst du den Pfannenwender unter den Pfannkuchen schieben und
+            ihn wenden. Mache dies vorsichtig, damit der Pfannkuchen nicht
+            zerbricht. Gib danach wieder etwas Butter in die Pfanne und brate
+            den/die anderen Pfannkuchen (oder Eierkuchen).
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">8</span>
+          </div>
+          <h3>
+            Wenn du alle Pfannkuchen fertig hast, drapiere sie auf einen
+            Teller. Bestreue die Oberseite mit dem Vanillezucker.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">9</span>
+          </div>
+          <h3>
+            Nun kannst du die Pfannkuchen einrollen oder einfach
+            übereinanderschlagen und servieren. Deiner Kreativität sind keine
+            Grenzen gesetzt.
+          </h3>
+        </li>
+      </div>
+      <h2 class="finish-text">Guten Appetit</h2>
+    </div>
+
+    </div>
+
+    <div id="Waffeln" class="div" >
+      <div class="Waffeln2">
+
+      <h2 class="Waffeln-headline2">Waffeln</h2>
+
+        <div class="Waffeln-img-div2">
+          <img
+            src="assets/Waffeln.webp"
+            class="Waffeln-picture"
+            alt=""
+          />
+        </div>
+
+        <h3 class="Waffeln-question3">Was brauche ich fürs Waffelbacken?</h3>
+        <ul class="Waffeln-list2">
+          <li class="list-element3">
+            <h3>250g Mehl</h3>
+          </li>
+          <li class="list-element3">
+          <h3>200ml Milch<h3></li>
+          <li class="list-element3"><h3>125g Butter<h3></li>
+          <li class="list-element3"><h3>50g Zucker<h3></li>
+          <li class="list-element3"><h3>1 Pkg Vanillinzucker<h3></li>
+          <li class="list-element3"><h3>3 Eier<h3></li>
+          <li class="list-element3"><h3>0.5 Pkg Backpulver<h3></li>
+          <li class="list-element3"><h3>1 Prise Salz<h3></li>
+        </ul>
+        <h3 class="Waffeln-question4">
+          Zum Anrühren des Teiges brauchst du folgende Hilfsmittel:
+        </h3>
+        <ul class="Waffeln-equitment2">
+          <li class="list-element4"><h3>Teigschüssel</h3></li>
+          <li class="list-element4"><h3>Backpinsel</h3></li>
+          <li class="list-element4"><h3>Schöpfkelle<h3></li>
+          <li class="list-element4"><h3>Waffeleisen<h3></li>
+          <li class="list-element4"><h3>Schneebesen<h3></li>
+        </ul>
+
+        <div class="Kochanleitung5">
+          <li class="li-element2">
+            <div class="Kochschrittsymbole2">
+              <span class="Kochschritt2">1</span>
+            </div>
+            <h3>
+              Zerlasse die Butter kurz in einem Topf oder gib sie für ein paar Sekunden (!) in die Mikrowelle. Dann die Butter in einer Schüssel mit einem Schneebesen mit dem Zucker, dem Salz und dem Vanillinzucker schaumig verrühren.
+            </h3>
+          </li>
+          <li class="li-element2">
+            <div class="Kochschrittsymbole2">
+              <span class="Kochschritt2">2</span>
+            </div>
+            <h3>
+              Gib jetzt die Eier einzeln hinzu und verrühre alles gut zu einer cremigen, leicht schaumigen Masse. Jetzt das Mehl in einer anderen Schüssel mit dem Backpulver mischen und hier hinein mit dem Handrührgerät die Buttermischung rühren. Jetzt erst kommt die Milch hinein. Verquirle alles zu einem homogenen Teig.
+            </h3>
+          </li>
+          <li class="li-element2">
+            <div class="Kochschrittsymbole2">
+              <span class="Kochschritt2">3</span>
+            </div>
+            <h3>
+              Lasse den Teig 15 Minuten lang aufquellen. 
+            </h3>
+          </li>
+          <li class="li-element2">
+            <div class="Kochschrittsymbole2">
+              <span class="Kochschritt2">4</span>
+            </div>
+            <h3>
+              Streiche jetzt das Waffeleisen mit einem Pinsel und Öl oder Butter gut aus. Wenn es heiß ist, gib eine Portion Waffelteig mit einer Schöpfkelle hinein und schließe das Gerät.
+            </h3>
+          </li>
+          <li class="li-element2">
+            <div class="Kochschrittsymbole2">
+              <span class="Kochschritt2">5</span>
+            </div>
+            <h3>
+              Die Waffeln sind nach etwa 3-5 Minuten fertig und goldbraun. Nimm sie heraus und säubere das Waffeleisen innen mit einem Stück Küchenpapier von eventuellen Resten, die anbrennen könnten. Dann die nächste Kelle hineingeben.
+            </h3>
+          </li>
+          <li class="li-element2">
+            <div class="Kochschrittsymbole2">
+              <span class="Kochschritt2">6</span>
+            </div>
+            <h3>
+              Warm schmecken die Waffeln am besten.
+            </h3>
+          </li>
+          
+        </div>
+        <h2 class="finish-text">Guten Appetit</h2>
+      </div>
+    </div>
+
+    <div id="Käsekuchen" class="div" >
+      <div class="Käsekuchen2"  >
+      <h2 class="Käsekuchen-headline2">Käsekuchen</h2>
+
+      <div class="Käsekuchen-img-div2">
+        <img
+          src="assets/Käsekuchen.webp"
+          class="Käsekuchen-picture2"
+          alt=""
+        />
+      </div>
+
+      <h3 class="Käsekuchen-question4">Was brauch ich für den Mürbeteig?</h3>
+      <ul class="Käsekuchen-list4">
+        <li class="list-element4"><h3>250g Mehl</h3></li>
+        <li class="list-element4"><h3>1/2 Päckchen Backpulver</h3></li>
+        <li class="list-element4"><h3>70g Zucker</h3></li>
+        <li class="list-element4">
+          <h3>100g Butter</h3>
+        </li>
+        <li class="list-element4"><h3>1 Stück Eier</h3></li>
+      </ul>
+      
+      <h3 class="Käsekuchen-question5">Was brauch ich für den Quarkkuchenbelag?</h3>
+      <ul class="Käsekuchen-list5">
+        <li class="list-element5"><h3>4 Stück Eiweis</h3></li>
+        <li class="list-element5"><h3>500g Quark</h3></li>
+        <li class="list-element5"><h3>1 Päckchen Vanillienzucker</h3></li>
+        <li class="list-element5">
+          <h3>250ml Milch</h3>
+        </li>
+        <li class="list-element5"><h3>80g Zucker</h3></li>
+        <li class="list-element5"><h3>3 Stück Eigelb</h3></li>
+        <li class="list-element5"><h3>50g Butter</h3></li>
+        <li class="list-element5"><h3>1 Päckchen Puddingpulver Vanille</h3></li>
+        <li class="list-element5"><h3>1 TL geriebene Zitronenschale</h3></li>
+        <li class="list-element5"><h3>1 Stück Eigelb</h3></li>
+        <li class="list-element5"><h3>1 TL Zucker</h3></li>
+      </ul>
+
+      <h3 class="Käsekuchen-question6">
+        Zum Anrühren des Teiges brauchst du folgende Hilfsmittel:
+      </h3>
+      <ul class="Käsekuchen-equitment6">
+        <li class="list-element6"><h3>Rührschüssel</h3></li>
+        <li class="list-element6"><h3>Springform</h3></li>
+        <li class="list-element6"><h3>Backpinsel</h3></li>
+      </ul>
+
+      <div class="Kochanleitung6">
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">1</span>
+          </div>
+          <h3>
+            Zuerst bereite den Mürbeteig zu.
+            Gib das Mehl mit dem Backpulver auf deine Arbeitsfläche und drücke eine Kuhle hinein. Da hinein kommen Ei, Zucker und die kalte Butter. Verknete alles zu einem glatten Teig. Lege den Teig in eine bemehlte Schüssel, abdecken und etwa 30 Minuten in den Kühlschrank stellen.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">2</span>
+          </div>
+          <h3>
+            Fette in der Zwischenzeit eine Springform ein und heize den Backofen auf 180 °C Ober- Unterhitze, 160°C Umluft) vor.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">3</span>
+          </div>
+          <h3>
+            Ist der Teig gekühlt, rolle ihn in der Springform aus. Das funktioniert sehr gut mit einem bemehlten Glas. Vergiß nicht, den Teig am Rand etwas hochzuziehen.Nun kannst du ihn etwa 10 bis 15 Minuten backen und anschließend etwas abkühlen lassen.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">4</span>
+          </div>
+          <h3>
+            Nimm nun eine fettfreie Schüssel und schlage zuerst das Eiweiß zu steifen Schnee. Stelle ihn an einen kühlen Ort, damit er nicht zusammenfällt.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">5</span>
+          </div>
+          <h3>
+            Nun brauchst du eine andere, große Schüssel. Dahinein gib zuerst den Quark und das Vanille-Puddingpulver. Anstatt Vanillepudding-Pulver kannst du auch 40 g Speisestärke nehmen.
+            Kurz vermischen und alle anderen Zutaten zufügen. Erst wenn alles gut cremig verrührt ist, ziehe vorsichtig das geschlagene Eiweiß darunter.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">6</span>
+          </div>
+          <h3>
+            Nun kannst du die Quarkmasse auf den gebackenem Boden verteilen. Forme einen Hügel, damit er nach dem Backen nicht zusammenfällt.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">7</span>
+          </div>
+          <h3>
+            Nun muss der Quarkkuchen bei etwa 40 Minuten backen.
+            Verquirle das Eigelb mit dem TL Zucker und bestreiche nach etwa 15 Minuten backen die Oberfläche damit.
+            Für eine Garprobe nimm einen Holzspieß und stich nach Ende der Backzeit damit vorsichtig in den Kuchen. Wenn nichts mehr kleben bleibt, ist er fertig.
+          </h3>
+        </li>
+        <li class="li-element2">
+          <div class="Kochschrittsymbole2">
+            <span class="Kochschritt2">8</span>
+          </div>
+          <h3>
+            Öffne die Backofentür zur Hälfte und lass ihn noch etwa 15 Minuten im Ofen stehen. Dann kannst du ihn unbesorgt rausnehmen und er fällt nicht zusammen.
+          </h3>
+        </li>
+        
+      </div>
+      <h2 class="finish-text">Guten Appetit</h2>
+    </div>
+    </div>
+    <script>
+
+        /*
+
+    
+        
+        */
+
+    </script>
+
+    <script src="Backbuch.js"></script>
+
+
+
+  </body>
+</html>
